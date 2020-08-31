@@ -6,25 +6,19 @@ There are two templates (js => javascript template and ts => typescript template
 
 # how it works
 
-install this library
-
-```
-npm install -g merced-reactor
-```
-
 run command to generate project folder
 
 ```
-merced-reactor <projectName> <template>
+npx merced-reactor <projectName> <template>
 ```
 
 for example
 
 ```
-merced-reactor myProject ts
+npx merced-reactor myProject ts
 ```
 
-after it comples cd into the project folder
+after it completes cd into the project folder
 
 run "npm install"
 
