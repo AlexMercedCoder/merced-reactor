@@ -1,41 +1,23 @@
 {
-  "_from": "merced-reactor",
-  "_id": "merced-reactor@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-soo/S+eM0uHhOs8h+jzRj160fqg1PCwKuWOlyjwcZtq9omxq0YRRrDtxNUkBxYpK8Jxu3GQU/Cnd8Ol76XudMA==",
-  "_location": "/merced-reactor",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "merced-reactor",
-    "name": "merced-reactor",
-    "escapedName": "merced-reactor",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/merced-reactor/-/merced-reactor-1.0.1.tgz",
-  "_shasum": "bc140cbe8b2d5396ca1e8f8753eb0474e848e8b7",
-  "_spec": "merced-reactor",
-  "_where": "/home/alexmerced/development/Personal/cli",
-  "author": "",
-  "bin": {
-    "merced-reactor": "index.js"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "This is a command-line tool for generating react projects that use the parcel builder.",
-  "keywords": [],
-  "license": "ISC",
-  "main": "index.js",
   "name": "merced-reactor",
+  "version": "1.0.2",
+  "description": "This is a command-line tool for generating react projects that use the parcel builder.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "bin": {
+    "merced-reactor": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMercedCoder/merced-reactor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMercedCoder/merced-reactor/issues"
+  },
+  "homepage": "https://github.com/AlexMercedCoder/merced-reactor#readme"
 }
