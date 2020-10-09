@@ -1,6 +1,6 @@
 {
   "name": "merced-reactor",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This is a command-line tool for generating react projects that use the parcel builder.",
   "main": "index.js",
   "scripts": {

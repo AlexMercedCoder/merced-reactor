@@ -45,8 +45,8 @@ console.log(
 ////CLONE THE REPOSITORY
 switch (type) {
     case 'js':
-        const jsclone = spawnSync(`git`, [
-            'clone',
+        const jsclone = spawnSync(`npx`, [
+            'degit',
             'https://github.com/AlexMercedCoder/Alex-Merced-React-Parcel-Template.git',
             name,
         ]);
@@ -84,6 +84,7 @@ console.log(
 - cd into project folder => ${name}
 - run command "npm install"
 - run command "npm run dev" and have fun developing
+- Join the Slack/Discord at devNursery.com, be part of the community!
 `
 );
 console.log(
